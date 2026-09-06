@@ -160,6 +160,21 @@ The same sequence was run through MATLAB's built-in `fft()`, and the coefficient
 | Best suited for | Real-time embedded systems | Analysis and simulation |
 
 ---
+ ## Try It Without the Board
+
+Don't have the PYNQ-Z2 on hand? `src/fft_simulation_demo.py` runs the exact same 8-point input sequence from this report through a from-scratch radix-2 FFT and a mock PYNQ interface, entirely offline.
+
+Run it with:
+
+```bash
+python src/fft_simulation_demo.py
+```
+
+It reproduces the exact output from Figure 5.3 in the report, including the DC bin at 9 + 0j:
+
+![Simulation Result](docs/images/fft_simulation_result.png)
+
+ ---
 
 ## Repository Structure
 
