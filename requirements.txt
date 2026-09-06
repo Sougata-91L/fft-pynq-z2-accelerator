@@ -1,0 +1,4 @@
+# Runs on the PYNQ-Z2 board (inside the PYNQ Jupyter environment)
+pynq
+numpy
+matplotlib
